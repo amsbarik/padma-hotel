@@ -171,7 +171,7 @@
             addClassActive: true,
             transitionStyle: "fadeUp",
             afterMove: animatetCaptions,
-            autoPlay: false,
+            autoPlay: 3000,
             stopOnHover: true
         });
 
@@ -196,6 +196,10 @@
             $('.owl-slider-fullscreen .item').height($(window).height());
         }
     });
+
+
+
+
 
     // Quote carousel
     // ----------------------------------------------------------------
