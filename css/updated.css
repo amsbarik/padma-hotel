@@ -1,0 +1,96 @@
+
+
+/* meeting and event css start  */
+
+.meeting-events {
+  position: relative;
+}
+.meeting-events .hall-info {
+  width: 1100px;
+  background-color: #ffffff99;
+  margin-top: -164px;
+  /* z-index: 100; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 24px;
+}
+
+
+/* Container */
+.custom-tabs {
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Tab list */
+.tab-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid #dee2e6;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.tab-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px 6px 0 0;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.25s ease;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #00486C99;
+    color: white;
+}
+
+/* Smooth tab button animation */
+.tab-item:hover {
+    background: rgb(34, 88, 143);
+    /* transform: translateY(-2px); */
+}
+
+.tab-item.active {
+    color: #ffffff;
+    background: #00486C;
+    border-color: #dee2e6 #dee2e6 #fff;
+
+    /* transform: translateY(-2px); */
+}
+
+.tab-item.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Tab content box */
+.tab-content {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-top: none;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Smooth fade + slide-in effect */
+.tab-pane {
+    opacity: 0;
+    transform: translateY(10px);
+    position: absolute;
+    width: 100%;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+}
+
+
+/* meeting and event css end */

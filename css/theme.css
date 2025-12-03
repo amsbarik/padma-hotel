@@ -1,18 +1,5 @@
 ﻿/* updated css start  */
 
-.meeting-events {
-  position: relative;
-}
-.meeting-events .hall-info {
-  width: 1100px;
-  background-color: #ffffff99;
-  margin-top: -164px;
-  /* z-index: 100; */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 24px;
-}
 /* updated css end  */
 
 
