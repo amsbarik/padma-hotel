@@ -1,9 +1,15 @@
+/* slider animate  */
+
+
+
+
 
 
 /* meeting and event css start  */
 
 .meeting-events {
   position: relative;
+
   padding-bottom: 140px;
 }
 .meeting-events .hall-info {
@@ -17,6 +23,16 @@
   padding: 24px;
 }
 
+.meeting-events .price {
+  background-color: #f0f0f0;
+  margin-top: 24px;
+  padding: 16px 24px 10px 24px;
+  font-size: 16px;
+}
+.meeting-events .price .value{
+  font-weight: 500;
+  font-size: 18px;
+}
 
 /* Container */
 .custom-tabs {
