@@ -171,7 +171,7 @@
             addClassActive: true,
             transitionStyle: "fadeUp",
             afterMove: animatetCaptions,
-            autoPlay: 3000,
+            autoPlay: 6000,
             stopOnHover: true
         });
 
